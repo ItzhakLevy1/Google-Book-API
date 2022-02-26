@@ -90,7 +90,17 @@ input::placeholder {
         
       }
 
-
+      @media screen and (max-width: 992px) {
+          .input-search {
+	       padding: 0.5rem 1rem;
+	       border-radius: 5px;
+	       background-color: rbga(#fff, 0.5);
+	       width: 60%;
+	       height: 3rem;
+	       display: block;
+	       margin-bottom: 2rem;
+	       }
+      }
 
 
 
