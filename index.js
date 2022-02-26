@@ -21,7 +21,7 @@ function showBooks(res) {
 
     // The image's div
     let img = document.createElement('img');
-    img.src = item.volumeInfo.imageLinks.smallThumbnail;
+    img.src = item.volumeInfo.imageLinks.thumbnail;
     imgDiv.appendChild(img);
 
     // The data div
